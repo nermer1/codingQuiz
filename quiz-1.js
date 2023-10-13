@@ -35,7 +35,7 @@ function def(val1, val2) {
         }
     }
 
-    let percent = Math.round((((val1.length - defCount) / val1.length) * 100) * 100) / 100;
+    let percent = Math.round((((val1.length - defCount) / val1.length) * 10000)) / 100;
 
     console.debug(percent + '% 일치');
 
